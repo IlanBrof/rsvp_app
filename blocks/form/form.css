@@ -1,0 +1,13 @@
+.form {
+  margin: 10% auto;
+  max-width: 550px;
+  height: 650px;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.6);
+  border-color: rgba(0, 0, 0, 0.6);
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+}
