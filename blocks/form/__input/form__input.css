@@ -25,3 +25,17 @@ label {
 .form__input:nth-last-child(2) {
   margin: 0 0 90px 0;
 }
+
+@media screen and (max-width: 640px) {
+  label {
+    font-size: 16px;
+  }
+
+  .form__input {
+    height: 25px;
+  }
+
+  .form__input:nth-last-child(2) {
+    margin: 0 0 50px 0;
+  }
+}

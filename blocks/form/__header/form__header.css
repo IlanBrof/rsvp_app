@@ -6,3 +6,10 @@
   width: 60%;
   text-align: center;
 }
+
+@media screen and (max-width: 640px) {
+  .form__header {
+    margin: 25px auto 40px auto;
+    font-size: 30px;
+  }
+}
