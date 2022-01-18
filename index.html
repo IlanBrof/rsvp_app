@@ -14,17 +14,24 @@
 <body class="body">
     <div class="form">
         <div class="form__header">אנא אשר הגעה לארוחת שישי</div>
+        <iframe class="iframe"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6765.035098081529!2d34.85191117976273!3d32.0281799248183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151d4a98da87a487%3A0x3f27c0331077af25!2sOr%20Yehuda!5e0!3m2!1sen!2sil!4v1640788804718!5m2!1sen!2sil"
+            width="400" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         <form class="form__inputs">
             <label for="שם פרטי">שם פרטי</label>
-            <input class="form__input" type="text" name="שם פרטי">
+            <input class="form__input" id="nameInput" type="text" name="שם פרטי">
             <label for="שם משפחה">שם משפחה</label>
-            <input class="form__input" type="text" name="שם משפחה">
-            <button class="form__submit-button" type="submit">שלח/י</button>
+            <input class="form__input" id="lastNameInput" type="text" name="שם משפחה">
+            <button class="form__button" id="submitButton" type="submit">שלח/י</button>
+            <button class="form__button form__button_rsvpList" id="rsvpListButton" type="button">מי אישר/ה
+                הגעה?</button>
         </form>
-        <a href="#" class="form__invitees">מי אישר/ה הגעה?</a>
+        <div class="form-list__container form-list__container_hidden">
+            <ul class="form__rsvp-list">
+            </ul>
+            <button class="form__button form__button_backButton" id="backButton" type="button">חזור</button>
+        </div>
     </div>
-
-
     <script src="index.js"></script>
 </body>
 
